@@ -1,0 +1,106 @@
+        /* start main rules */
+ body{
+   font-family:Roboto,monstserrat,sans-serif;
+   height: auto;
+   margin: 0;
+   padding: 0;
+   width: auto;
+   overflow-x: hidden;
+
+}
+.container{
+    width: 1120px;
+    margin: auto;
+    overflow: hidden;
+ }
+ 
+ /* start navbar */
+.navbar{
+	  background-color: burlywood;
+	  height: 60px;
+	  width: 100%;
+	  color: #fff;
+	  text-align: center;
+	  overflow: hidden;
+	  text-transform: uppercase; 
+}
+.navbar ul{
+ list-style: none;
+ overflow: hidden;
+}
+.navbar ul li{
+
+	display: inline-block;
+	margin-left: 100px;
+	padding-top:8px; 
+	padding-left:15px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.navbar ul li a{text-decoration: none;
+color:#fff;
+}
+.navbar ul li a:hover{
+color:#A7A3A4;
+}
+
+ /* start Photo */
+.slider img{
+ height: 650px;
+ background-size: cover;
+
+}
+ 
+ /* start about*/
+
+.about{
+    margin-top: 40px;
+    display: block;
+	margin-bottom: 100px;
+}
+.about .parent{
+    float: left;
+    width: 370px;
+    margin-left: 30px;
+     overflow: hidden; 
+    text-align: left;
+}
+.about h3{
+	color: burlywood
+}
+/* start contact*/
+.contact h2{
+	text-align: center;
+	color: burlywood;
+}
+.contact button{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 40px;
+	background-color: burlywood;
+	color: #fff;
+	border: none;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
